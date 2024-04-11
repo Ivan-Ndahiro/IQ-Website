@@ -63,9 +63,6 @@ a{
 .step{
     display: none;
 }
-.active{
-    display: block;
-}
 .invalid{
     border: 1px solid #ffaba5;
 }
