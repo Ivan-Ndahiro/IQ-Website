@@ -4,9 +4,9 @@ body {
     margin-left: 2%;
     margin-right: 2%;
 }
-.main {
-    margin-left: 15%;
-    margin-right: 15%;
+.main,.head {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 h1 {
     font-size: 26px;
@@ -22,30 +22,12 @@ p {
     width: 55px;
     height: 55px;
 }
-.topnav {
-    margin-top:5px;
-    display: block;
-    background-color: rgb(226, 226, 226);
-    overflow: hidden;
-    text-align: center;
-    border-radius: 25px;
-}
-.topnav a {
-    font-weight: bold;
-    font-size: 28px;
-    float: none;
-    margin-left: 8%;
-    margin-right: 8%;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-.topnav a:hover {
-    color: rgb(56,83,153);
-}
 a {
     text-decoration: none;
+}
+#begin-button {
+    margin-left: 40%;
+    margin-right: 40%;
 }
 #steps-container {
     margin: auto;
