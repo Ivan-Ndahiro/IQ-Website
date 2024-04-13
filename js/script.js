@@ -12,7 +12,7 @@ form.onsubmit = () => {
 }
 
 let current_step = 0;
-let stepCount = 30
+let stepCount = 5;
 
 step[current_step].classList.add('d-block');
 
