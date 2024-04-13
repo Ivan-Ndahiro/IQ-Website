@@ -8,24 +8,23 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-p {
-    font-size: 20px;
-    margin-left: 2.5%;
-}
 .logo {
     width: 50px;
     height: 50px;
+}
+p {
+    font-size: 20px;
+    margin-left: 2.5%;
 }
 a {
     text-decoration: none;
 }
 #begin-button {
-    margin-left: 40%;
-    margin-right: 40%;
+    width: 500px;
 }
 #steps-container {
     margin: auto;
-    width: 500px;
+    width: 550px;
     min-height: 450px;
     display: flex;
     vertical-align: middle;
@@ -46,6 +45,9 @@ a {
 }
 .step {
     display: none;
+}
+.form-check-label{
+    margin-left: -15px;
 }
 input[type="radio"]:hover {
     cursor: pointer;
