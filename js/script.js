@@ -104,6 +104,31 @@ function calculate(){
     var q3=document.getElementsByName('Q3');
     var q4=document.getElementsByName('Q4');
     var q5=document.getElementsByName('Q5');
+    var q6=document.getElementsByName('Q6');
+    var q7=document.getElementsByName('Q7');
+    var q8=document.getElementsByName('Q8');
+    var q9=document.getElementsByName('Q9');
+    var q10=document.getElementsByName('Q10');
+    var q11=document.getElementsByName('Q11');
+    var q12=document.getElementsByName('Q12');
+    var q13=document.getElementsByName('Q13');
+    var q14=document.getElementsByName('Q14');
+    var q15=document.getElementsByName('Q15');
+    var q16=document.getElementsByName('Q16');
+    var q17=document.getElementsByName('Q17');
+    var q18=document.getElementsByName('Q18');
+    var q19=document.getElementsByName('Q19');
+    var q20=document.getElementsByName('Q20');
+    var q21=document.getElementsByName('Q21');
+    var q22=document.getElementsByName('Q22');
+    var q23=document.getElementsByName('Q23');
+    var q24=document.getElementsByName('Q24');
+    var q25=document.getElementsByName('Q25');
+    var q26=document.getElementsByName('Q26');
+    var q27=document.getElementsByName('Q27');
+    var q28=document.getElementsByName('Q28');
+    var q29=document.getElementsByName('Q29');
+    var q30=document.getElementsByName('Q30');
     q1.forEach((evnt)=>{
         if(evnt.checked){
             total=total+parseInt(evnt.value);
@@ -129,6 +154,156 @@ function calculate(){
         }
     });
     q5.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q6.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q7.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q8.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q9.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q10.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q11.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q12.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q13.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q14.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q15.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q16.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q17.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q18.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q19.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q20.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q21.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q22.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q23.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q24.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q25.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q26.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q27.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q28.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q29.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q30.forEach((evnt)=>{
         if(evnt.checked){
             total=total+parseInt(evnt.value);
             return;
