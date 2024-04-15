@@ -73,13 +73,14 @@ input[type="radio"]:hover {
 @media (max-width: 767px) {
     #steps-container {
         width: 100%;
-        min-height: 500px;
+        min-height: 700px;
     }
     #footer{
         visibility: hidden;
     }
     .end{
         text-align: center;
+        margin-right: 20%;
         width: 20%;
     }
 }
