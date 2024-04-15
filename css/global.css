@@ -57,7 +57,7 @@ a {
 input[type="radio"] {
     transform: scale(1.5);
 }
-input[type="radio"]:hover{
+input[type="radio"]:hover,#ansImg:hover{
     cursor: pointer;
 }
 .back {
