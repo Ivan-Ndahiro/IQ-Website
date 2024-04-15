@@ -19,7 +19,7 @@ p {
 a {
     text-decoration: none;
 }
-.end{
+.end {
     text-align: center;
     margin-left: 50%;
     width: 70%;
@@ -52,9 +52,12 @@ a {
     display: none;
 }
 .form-check-label{
-    margin-left: -15px;
+    margin-left: 15px;
 }
-input[type="radio"]:hover {
+input[type="radio"] {
+    transform: scale(1.5);
+}
+input[type="radio"]:hover{
     cursor: pointer;
 }
 .back {
@@ -80,7 +83,7 @@ input[type="radio"]:hover {
     }
     .end{
         text-align: center;
-        margin-left: 20%;
+        margin-left: 25%;
         width: 20%;
         min-width: 50%;
     }
