@@ -78,6 +78,9 @@ input[type="radio"]:hover{
         width: 100%;
         min-height: 500px;
     }
+    input[type="radio"] {
+        transform: scale(1);
+    }
     #footer{
         visibility: hidden;
     }
