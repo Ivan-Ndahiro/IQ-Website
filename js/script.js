@@ -96,3 +96,43 @@ submit.addEventListener('click', () => {
         })
  
 });
+
+function calculate(){
+    var total=0;
+    var q1=document.getElementsByName('Q1');
+    var q2=document.getElementsByName('Q2');
+    var q3=document.getElementsByName('Q3');
+    var q4=document.getElementsByName('Q4');
+    var q5=document.getElementsByName('Q5');
+    q1.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q2.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q3.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q4.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    q5.forEach((evnt)=>{
+        if(evnt.checked){
+            total=total+parseInt(evnt.value);
+            return;
+        }
+    });
+    document.getElementById("answerTotal").innerHTML = total;
+}
