@@ -6,13 +6,12 @@ let form = document.getElementsByTagName('form')[0];
 let transition = document.getElementById('transition');
 let body_element = document.querySelector('body');
 let complete = document.getElementById('complete');
+let current_step = 0;
+let stepCount = 30 ;
 
 form.onsubmit = () => {
     return false
 }
-
-let current_step = 0;
-let stepCount = 5;
 
 step[current_step].classList.add('d-block');
 
@@ -79,6 +78,7 @@ previous.addEventListener('click', () => {
 });
  
 submit.addEventListener('click', () => {
+    calculate();
     transition.classList.add('d-block');
     const timer = ms => new Promise(res => setTimeout(res, ms));
     timer(1000)
@@ -96,6 +96,15 @@ submit.addEventListener('click', () => {
         })
  
 });
+
+function iqScore(value){
+    var mean = 15;
+    var sd = 5;
+    var iqSD = 15;
+    var standardScore = (value-mean)/sd;
+    var iqScore = (standardScore*iqSD)+100;
+    return iqScore;
+}
 
 function calculate(){
     var total=0;
@@ -310,4 +319,6 @@ function calculate(){
         }
     });
     document.getElementById("answerTotal").innerHTML = total;
+    var iq = iqScore(total);
+    document.getElementById("iqTotal").innerHTML = iq;
 }
