@@ -46,6 +46,9 @@ a {
     display: none;
     position: fixed;
 }
+#timer-class{
+    text-align: right;
+}
 .loaded #transition {
     transition: all 0.2s 1s ease-out;
 }
