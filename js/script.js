@@ -104,12 +104,12 @@ function submit(){
     submitButton.classList.add('d-none');
     complete.classList.remove('d-none');
     complete.classList.add('d-block');
-    console.log("Submit done!")
+    document.getElementById("timer").innerHTML = "Done!"
 }
 
 //Timer function calls Submit page 15 minutes on load and refreshes the countdown every second
 function timer(){
-    var time = 900000;
+    var time = 90000;
     setTimeout(submit, time);
     var countdown = setInterval(() => {
         duration = time - 1000;
@@ -124,7 +124,6 @@ function timer(){
         if (duration <= 0){
             clearInterval(countdown);
             document.getElementById("timer").innerHTML = "Done!"
-            submit();
         }
         time-=1000;
     }, 1000);
