@@ -109,7 +109,7 @@ function submit(){
 
 //Timer function calls Submit page 15 minutes on load and refreshes the countdown every second
 function timer(){
-    var time = 90000;
+    var time = 900000;
     setTimeout(submit, time);
     var countdown = setInterval(() => {
         duration = time - 1000;
@@ -353,6 +353,6 @@ function calculate(){
         }
     });
     document.getElementById("answerTotal").innerHTML = total;
-    /*var iq = iqScore(total);
-    document.getElementById("iqTotal").innerHTML = iq;*/
+    var iq = iqScore(total);
+    document.getElementById("iqTotal").innerHTML = iq;
 }
