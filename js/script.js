@@ -84,6 +84,7 @@ function next(){
     progress((100 / stepCount) * current_step);
 }
 
+
 //Function to load pages on press of Previous Button
 function submit(){
     calculate();
