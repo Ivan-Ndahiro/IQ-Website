@@ -13,7 +13,7 @@ body {
     height: 50px;
     filter: drop-shadow(3px 3px 3px #858484);
 }
-p {
+p,li {
     font-size: 20px;
     margin-left: 2.5%;
 }
@@ -74,32 +74,9 @@ input[type="radio"]:hover,#ansImg:hover{
     position: fixed;
 }
 
-
-@media (max-width: 576px) {
-    #ansImg{
-        width: 500px;
-    }
-    #steps-container {
-        width: 100%;
-        min-height: 500px;
-    }
-    input[type="radio"] {
-        transform: scale(1);
-    }
-    #footer{
-        visibility: hidden;
-    }
-    .end{
-        text-align: center;
-        margin-left: 25%;
-        width: 20%;
-        min-width: 50%;
-    }
-}
-
 @media (max-width: 768px) {
     #ansImg{
-        width: 500px !important;
+        width: 500px;
     }
     #steps-container {
         width: 100%;
