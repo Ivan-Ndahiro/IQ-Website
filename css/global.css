@@ -75,9 +75,6 @@ input[type="radio"]:hover,#ansImg:hover{
 }
 
 @media (max-width: 768px) {
-    #ansImg{
-        width: 500px;
-    }
     #steps-container {
         width: 100%;
         min-height: 500px;
