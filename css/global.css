@@ -47,7 +47,7 @@ a {
     position: fixed;
 }
 #timer-class{
-    font-size: 30px;
+    font-size: 35px;
     text-align: right;
 }
 .loaded #transition {
