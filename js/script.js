@@ -123,11 +123,14 @@ function timer(){
         } else{
             document.getElementById("timer").innerHTML = m + ":" + s;
         }
+        time-=1000;
         if (duration <= 0){
             clearInterval(countdown);
-            document.getElementById("timer").innerHTML = "Done!"
+            document.getElementById("timer").innerHTML = "Done!";
         }
-        time-=1000;
+        submitButton.addEventListener('click', ()=>{
+            clearInterval(countdown)
+        });
     }, 1000);
 }
 
