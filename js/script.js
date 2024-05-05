@@ -133,10 +133,14 @@ function timer(){
 
 //IQ function to calculate the IQ Score based on the result
 function iqScore(value){
-    var mean = 15;
-    var sd = 5;
+    var mean = 14;
+    var sd = 9;
     var standardScore = (value-mean)/sd;
-    var iqScore = (standardScore*15)+100;
+    var iqScore = Math.round((standardScore*15)+100);
+    console.log(Math.round(((((6-mean)/sd))*15)+100));
+    console.log(Math.round(((((10-mean)/sd))*15)+100));
+    console.log(Math.round(((((20-mean)/sd))*15)+100));
+    console.log(Math.round(((((25-mean)/sd))*15)+100));
     return iqScore;
 }
 
@@ -358,40 +362,3 @@ function calculate(){
     var iq = iqScore(total);
     document.getElementById("iqTotal").innerHTML = iq;
 }
-/*
-function results(){
-    $.post("results.php",{
-        score: calculate.total,
-        IQ: calculate.iq,
-        Q1: calculate.q1,
-        Q2: calculate.q2,
-        Q3: calculate.q3,
-        Q4: calculate.q4,
-        Q5: calculate.q5,
-        Q6: calculate.q6,
-        Q7: calculate.q7,
-        Q8: calculate.q8,
-        Q9: calculate.q9,
-        Q10: calculate.q10,
-        Q11: calculate.q11,
-        Q12: calculate.q12,
-        Q13: calculate.q13,
-        Q14: calculate.q14,
-        Q15: calculate.q15,
-        Q16: calculate.q16,
-        Q17: calculate.q17,
-        Q18: calculate.q18,
-        Q19: calculate.q19,
-        Q20: calculate.q20,
-        Q21: calculate.q21,
-        Q22: calculate.q22,
-        Q23: calculate.q23,
-        Q24: calculate.q24,
-        Q25: calculate.q25,
-        Q26: calculate.q26,
-        Q27: calculate.q27,
-        Q28: calculate.q28,
-        Q29: calculate.q29,
-        Q30: calculate.q30,
-    })
-}*/
