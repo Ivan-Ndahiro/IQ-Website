@@ -137,10 +137,6 @@ function iqScore(value){
     var sd = 9;
     var standardScore = (value-mean)/sd;
     var iqScore = Math.round((standardScore*15)+100);
-    console.log(Math.round(((((6-mean)/sd))*15)+100));
-    console.log(Math.round(((((10-mean)/sd))*15)+100));
-    console.log(Math.round(((((20-mean)/sd))*15)+100));
-    console.log(Math.round(((((25-mean)/sd))*15)+100));
     return iqScore;
 }
 
